@@ -20,11 +20,11 @@
                 }
             ],
             "externalConsole": false,
-            "MIMode": "gdb",
+            "MIMode": "lldb",
             // "preLaunchTask": "CMake: clean rebuild",
             "setupCommands": [
                 {
-                    "description": "Enable pretty-printing for gdb",
+                    "description": "Enable pretty-printing for lldb",
                     "text": "-enable-pretty-printing",
                     "ignoreFailures": true
                 }
